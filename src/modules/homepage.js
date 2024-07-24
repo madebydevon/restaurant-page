@@ -23,7 +23,7 @@ export function displayHomepage() {
     mainHeader.textContent = "Dive into a World of Flavor";
     mainDescription.textContent = "At Bites Grill & Bar, we believe every meal should be a tantalizing journey for your taste buds. From the moment you step through our doors, the aroma of our sizzling, succulent dishes will captivate your senses and invite you to indulge.";
     mainButton.textContent = "Grab a bite";
-    attribution.textContent = " © 2024 Bites. | Background image by nuraghies on Freepik";
+    attribution.textContent = " © 2024 Bites. | Image by nuraghies on Freepik";
 
     container.appendChild(img);
     container.appendChild(mainKicker);
