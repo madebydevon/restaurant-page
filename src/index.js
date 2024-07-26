@@ -6,7 +6,7 @@ import { clearPage } from "./modules/utility.js";
 import ('./style.css');
 
 // displayHomepage(); // always display the homepage if there is nothing else on the page
-displayMenu();
+displayAbout();
 
 
 const homePageButton = document.querySelector('button.home-btn');
