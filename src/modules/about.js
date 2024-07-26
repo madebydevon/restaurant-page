@@ -4,7 +4,7 @@ import chefPictureSource from '../assets/chef-in-uniform.jpg';
 export function displayAbout() {
     const container = document.querySelector('div#content');
     container.classList.add('about-content');
-    // big header title saying ABOUT
+    
     const mainContentContainer = document.createElement('div');
     mainContentContainer.classList.add('about-container');
 
@@ -12,7 +12,6 @@ export function displayAbout() {
     pageTitle.classList.add('page-title')
     pageTitle.textContent = "About us";
 
-    // smaller background image
     const backgroundImage = new Image();
     backgroundImage.src = mainImageSource;
     backgroundImage.classList.add('about-image');
@@ -39,7 +38,7 @@ export function displayAbout() {
     const quoteAuthor = document.createElement('p');
     quoteAuthor.textContent = "James Bennett"
     const authorTitle = document.createElement('p');
-    authorTitle.textContent = "- Head Chef at Bites"
+    authorTitle.textContent = "~ Head Chef at Bites"
 
     container.appendChild(mainContentContainer);
     mainContentContainer.appendChild(backgroundImage);

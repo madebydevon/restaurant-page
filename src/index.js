@@ -5,8 +5,7 @@ import { displayContactPage } from "./modules/contact.js";
 import { clearPage } from "./modules/utility.js";
 import ('./style.css');
 
-// displayHomepage(); // always display the homepage if there is nothing else on the page
-displayMenu();
+displayHomepage();
 
 
 const homePageButton = document.querySelector('button.home-btn');
